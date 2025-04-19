@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion | StyleSage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2em;
+      color: #222;
+    }
+    p {
+      line-height: 1.6;
+    }
+    @media (max-width: 600px) {
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="StyleSage Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fashion.html">Fashion</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>The Ever-Evolving World of Fashion</h1>
+    <p><em>By StyleSage</em></p>
+    <p>Fashion is far more than just clothing—it's a dynamic form of self-expression...</p>
+
+    <h2>Fashion as a Mirror of Society</h2>
+    <p>Fashion reflects identity, culture, and change. From ancient times to now...</p>
+
+    <h2>The Historical Tapestry of Fashion</h2>
+    <p>From Egyptian linen to Parisian couture, fashion tells human history...</p>
+
+    <h2>The Modern Fashion Cycle</h2>
+    <ul>
+      <li><strong>Fast Fashion:</strong> Quick, trendy, cheap.</li>
+      <li><strong>Slow Fashion:</strong> Sustainable, ethical, mindful.</li>
+    </ul>
+
+    <h2>Fashion and Identity</h2>
+    <p>Fashion can be bold, rebellious, fluid, or traditional—it’s always expressive.</p>
+
+    <h2>The Future of Fashion</h2>
+    <p>Technology, sustainability, and inclusivity are shaping tomorrow’s fashion landscape.</p>
+
+    <p><strong>Conclusion:</strong> Wear your story. Style is power, history, and freedom.</p>
+  </main>
+
+</body>
+</html>
